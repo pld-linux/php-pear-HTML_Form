@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Simple HTML form package
+Summary:	%{_pearname} - simple HTML form package
 Summary(pl):	%{_pearname} - pakiet do prostych formularzy HTML
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
