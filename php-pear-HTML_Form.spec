@@ -27,7 +27,7 @@ fixed layout.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-To jest generator prostych formalarzy HTML. Obs³uguje wszystkie typy
+To jest generator prostych formularzy HTML. Obs³uguje wszystkie typy
 elementów formularzy HTML w³±cznie z przesy³aniem plików; mo¿e zwróciæ
 lub wypisaæ formularz, same elementy formularza lub pe³ny formularz w
 "trybie tabeli" z ustalonym rozmieszczeniem.
