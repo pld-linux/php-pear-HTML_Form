@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Simple HTML form package
-Summary(pl):	%{_pearname}
+Summary(pl):	%{_pearname} - pakiet do prostych formularzy HTML
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	1
@@ -26,6 +26,10 @@ fixed layout.
 This class has in PEAR status: %{_status}.
 
 %description -l pl
+To jest generator prostych formalarzy HTML. Obs³uguje wszystkie typy
+elementów formularzy HTML w³±cznie z przesy³aniem plików; mo¿e zwróciæ
+lub wypisaæ formularz, same elementy formularza lub pe³ny formularz w
+"trybie tabeli" z ustalonym rozmieszczeniem.
 
 Ta klasa ma w PEAR status: %{_status}.
 
