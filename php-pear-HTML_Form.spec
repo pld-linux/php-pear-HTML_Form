@@ -24,7 +24,7 @@ element types including file uploads, may return or print the form,
 just individual form elements or the full form in "table mode" with a
 fixed layout.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 To jest generator prostych formalarzy HTML. Obs³uguje wszystkie typy
