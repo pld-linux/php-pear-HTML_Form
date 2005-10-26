@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - simple HTML form package
 Summary(pl):	%{_pearname} - pakiet do prostych formularzy HTML
 Name:		php-pear-%{_pearname}
-Version:	1.2.0
-Release:	2
+Version:	1.3.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	fd0ca6034c76626c337bbf86cdb78393
+# Source0-md5:	5dac87216afa9f388bd55cb546d5413c
 URL:		http://pear.php.net/package/HTML_Form/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-common >= 3:4.0.0
