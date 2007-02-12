@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - simple HTML form package
-Summary(pl):	%{_pearname} - pakiet do prostych formularzy HTML
+Summary(pl.UTF-8):   %{_pearname} - pakiet do prostych formularzy HTML
 Name:		php-pear-%{_pearname}
 Version:	1.3.0
 Release:	1
@@ -31,17 +31,17 @@ fixed layout.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-To jest generator prostych formularzy HTML. Obs³uguje wszystkie typy
-elementów formularzy HTML w³±cznie z przesy³aniem plików; mo¿e zwróciæ
-lub wypisaæ formularz, same elementy formularza lub pe³ny formularz w
+%description -l pl.UTF-8
+To jest generator prostych formularzy HTML. ObsÅ‚uguje wszystkie typy
+elementÃ³w formularzy HTML wÅ‚Ä…cznie z przesyÅ‚aniem plikÃ³w; moÅ¼e zwrÃ³ciÄ‡
+lub wypisaÄ‡ formularz, same elementy formularza lub peÅ‚ny formularz w
 "trybie tabeli" z ustalonym rozmieszczeniem.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -50,7 +50,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
