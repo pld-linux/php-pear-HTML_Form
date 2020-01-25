@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	HTML_Form
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - simple HTML form package
 Summary(pl.UTF-8):	%{_pearname} - pakiet do prostych formularzy HTML
 Name:		php-pear-%{_pearname}
